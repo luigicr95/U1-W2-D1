@@ -277,6 +277,32 @@ footer a {
   }
   .related {
     display: inline-block;
-    width: 25%;
+    max-width: 23%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  form {
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  p,
+  ul,
+  ol {
+    font-size: 150%;
+  }
+  header {
+    position: static;
+  }
+  h2 {
+    font-size: 170%;
   }
 }
